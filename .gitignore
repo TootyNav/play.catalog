@@ -4,3 +4,6 @@
 
 /src/Play.Catalog.Service/bin/Debug/net5.0
 /src/Play.Catalog.Service/obj
+/src/Play.Catalog.Service/.vs/Play.Catalog.Service/DesignTimeBuild
+/src/Play.Catalog.Service/.vs/Play.Catalog.Service/v17/.futdcache.v1
+/src/Play.Catalog.Service/.vs/Play.Catalog.Service/project-colors.json

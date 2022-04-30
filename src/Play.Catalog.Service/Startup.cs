@@ -29,7 +29,8 @@ namespace Play.Catalog.Service
 
             services.AddControllers(options =>
             {
-                options.SuppressAsyncSuffixInActionNames = false;
+                //methods with async in their name are changedon run time. we need this to use nameof in controllers
+                options.SuppressAsyncSuffixInActionNames = false; 
             });
             
             services.AddSwaggerGen(c =>
